@@ -36,5 +36,3 @@ Packaging html5 project into `web/build` folder.
 ### npm run test
 
 Starts the test runner.
-
-test
