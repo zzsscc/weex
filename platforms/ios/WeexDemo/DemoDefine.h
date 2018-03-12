@@ -11,7 +11,7 @@
 #define CURRENT_IP @"your computer device ip"
 
 #if TARGET_IPHONE_SIMULATOR
-    #define DEMO_HOST @"127.0.0.1"
+    #define DEMO_HOST @"192.168.103.117"
 #else
     #define DEMO_HOST CURRENT_IP
 #endif

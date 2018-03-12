@@ -15,13 +15,20 @@ android {
             abiFilters "x86"
             abiFilters "armeabi"
         }
+
+        //添加部分
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
     }
     applicationVariants.all { variant ->
-        variant.outputs.each { output ->
-            def outputFile = output.outputFile
-            if (outputFile != null && outputFile.name.equals('app-debug.apk')) {
-                def fileName = outputFile.name.replace("app-debug.apk", "weex-app.apk")
-                output.outputFile = new File(outputFile.parent, fileName)
+        variant.outputs.all { output ->
+            def outputFile = outputFileName
+            if (outputFile != null && outputFile.equals('app-debug.apk')) {
+                def fileName = outputFile.replace("app-debug.apk", "weex-app.apk")
+                outputFileName = new File(output.outputFile.parent, fileName)
             }
         }
     }
@@ -57,6 +64,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_7
         targetCompatibility JavaVersion.VERSION_1_7
     }
+    buildToolsVersion '26.0.2'
 }
 
 
