@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 12 16:06:57 CST 2018
+#Mon Mar 12 17:34:20 CST 2018
 1.base=/Users/zhanshichao/Documents/project/weex/platforms/android/app/build/intermediates/assets/debug
 2.path=dist/index.js
 0.baseType=DIRECTORY
