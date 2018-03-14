@@ -1,4 +1,4 @@
-#Mon Mar 12 17:34:23 CST 2018
-base.0=/Users/zhanshichao/Documents/project/weex/platforms/android/app/build/intermediates/transforms/dexMerger/debug/158
+#Wed Mar 14 18:31:16 CST 2018
+base.0=/Users/zhanshichao/Documents/project/weex/platforms/android/app/build/intermediates/transforms/dexMerger/debug/386
 path.0=classes.dex
 renamed.0=classes.dex
