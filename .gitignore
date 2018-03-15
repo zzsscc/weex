@@ -1,4 +1,3 @@
 node_modules/
 .idea/
-platforms/android/
-platforms/ios/
+platforms/
